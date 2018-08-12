@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "noodle": "maddox/noodle#it"
+  }
+}
