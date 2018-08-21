@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001
 
 
 app.get('/', (req, res) => {
-  console.log("=>>>>> cooler kids")
+  console.log("=>>>>> cooler kids are cooler")
   res.sendfile('./index.html')
 })
 
