@@ -7,7 +7,6 @@
     "dev": "nodemon server"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3",
-    "noodle": "maddox/noodle#it"
+    "nodemon": "^1.18.3"
   }
 }
