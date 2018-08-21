@@ -10,9 +10,4 @@ app.get('/', (req, res) => {
   res.sendfile('./index.html')
 })
 
-app.get('/resize', (req, res) => {
-  console.log("=>>>>>>>>>> cooler kids")
-  res.sendfile('./resize.html')
-})
-
 app.listen(port, () => console.log(`Listening on port ${port}`))
