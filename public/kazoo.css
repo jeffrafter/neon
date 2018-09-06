@@ -1,3 +1,13 @@
 body {
-  background: red;
+  background: rgb(155, 36, 0);
+  background: url(/images/fire.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  height: 20%;
 }
