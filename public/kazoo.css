@@ -3,11 +3,11 @@ body {
   background: url(/images/fire.gif);
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 img {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  height: 20%;
+  margin: auto;
+  display: inline-block;
+  width: 80%;
 }
