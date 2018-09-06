@@ -17,8 +17,8 @@ img {
 */
 
 .animated {
-  -webkit-animation-duration: 0.2s;
-  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-iteration-count: infinite;
@@ -33,12 +33,12 @@ img {
 
 @-webkit-keyframes pulse {
   0% { -webkit-transform: scale(1); }
-  50% { -webkit-transform: scale(1.1); }
+  50% { -webkit-transform: scale(2) rotate(45deg); }
   100% { -webkit-transform: scale(1); }
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+  50% { transform: scale(2) rotate(45deg); }
   100% { transform: scale(1); }
 }
 .pulse {
