@@ -7,9 +7,9 @@ body {
 }
 
 img {
-  margin: auto;
   display: inline-block;
-  width: 80%;
+  width: 100px;
+  height:83px;
 }
 
 /*
