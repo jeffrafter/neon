@@ -4,5 +4,6 @@ set -e
 
 cd "$(dirname "$0")/../.."
 
+cat /etc/os-release
 yarn iridescent &
 yarn start
