@@ -12,4 +12,4 @@ COPY . /usr/src/app
 
 EXPOSE 3001
 
-CMD [ "yarn", "start" ]
+CMD [ "scripts/docker/run" ]
