@@ -12,7 +12,6 @@
   "devDependencies": {
     "nodemon": "^1.18.3"
   },
-  
   "now": {
     "features": {
       "cloud": "v1"
