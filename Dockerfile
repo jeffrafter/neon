@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package.json /usr/src/app/
-RUN yarn
+RUN SKIP_DOWNLOAD=1 yarn
 
 COPY . /usr/src/app
 
