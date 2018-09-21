@@ -12,4 +12,5 @@ COPY . /usr/src/app
 
 EXPOSE 3001
 
+
 CMD [ "scripts/docker/run" ]
