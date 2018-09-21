@@ -1,16 +1,10 @@
-FROM node:alpine
+FROM node
 
-# Create app directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /app
+COPY . .
 
-# Install app dependencies
-COPY package.json /usr/src/app/
-RUN yarn
+RUN yarn install
+RUN yarn build
 
-COPY . /usr/src/app
-
-EXPOSE 3001
-
-
-CMD [ "scripts/docker/run" ]
+EXPOSE 3000
+CMD ./script/run
