@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cat /etc/os-release
-./node_modules/.bin/iridescent --owner jeffrafter --repo neon --token a31e7e7d6a260a998fb469c57c474d2322f8e08e --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh &
+yarn iridescent &
 yarn start
