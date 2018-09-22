@@ -2,7 +2,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "noodle-it": "^0.0.2",
-    "noodle-iridescent-cli": "^1.0.2"
+    "noodle-iridescent-cli": "^1.0.2",
+    "nodemon": "^1.18.4"
   },
   "scripts": {
     "iridescent": "iridescent --owner jeffrafter --repo neon --token a31e7e7d6a260a998fb469c57c474d2322f8e08e --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh",
@@ -10,6 +11,5 @@
     "dev": "nodemon server"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3"
   }
 }
