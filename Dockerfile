@@ -10,4 +10,4 @@ FROM base AS release
 COPY --from=dependencies /app/prod_node_modules ./node_modules
 COPY . .
 EXPOSE 3000
-CMD ./script/docker/run
+CMD ./scripts/docker/run
