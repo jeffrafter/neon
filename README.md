@@ -16,8 +16,4 @@ Together we cry
 
 Together we cry
 
-I'm going to keep typing.
-
-I'm going to type some stuff
-
-Lots of stuff
+I'm going to keep typing....
