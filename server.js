@@ -12,6 +12,7 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => {
   res.sendfile('./index.html')
+  console.log("hfhslkdhflksdf")
 })
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
