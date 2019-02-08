@@ -6,6 +6,7 @@ xlkfjlksjdfklsdjf
 
 S:Ldjkflkjsdf
 
+:burrito:
 :taco:
 wtf
 no emoji support
